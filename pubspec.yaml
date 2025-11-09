@@ -1,0 +1,49 @@
+name: nearest_unesco_site
+description: A Flutter app to find and explore the nearest UNESCO World Heritage Sites in India
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Location services - to get user's GPS coordinates
+  geolocator: ^10.1.0
+  permission_handler: ^11.0.1
+  
+  # Map display - to show sites on Google Maps
+  google_maps_flutter: ^2.5.0
+  
+  # Open URLs - for Wikipedia and ASI booking links
+  url_launcher: ^6.2.1
+  
+  # HTTP requests - for chatbot API calls
+  http: ^1.1.0
+  
+  # Local storage - for favorites and preferences
+  shared_preferences: ^2.2.2
+  
+  # UI Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^3.0.0
+
+# App icon configuration (optional - you can add custom icon later)
+flutter_icons:
+  android: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  # Include JSON data and images
+  assets:
+    - assets/data/
+    - assets/images/
