@@ -15,7 +15,7 @@
 - 🔍 **Search & Filter** - Search by name and filter by state
 - 🔄 **Sort Options** - Sort by name, distance, or state
 - 📖 **Detailed Information** - Comprehensive details about each site
-- 🤖 **AI Chatbot** - Ask questions about sites using Gemini/Perplexity AI
+- 🤖 **AI Chatbot** - Currently not working (temporarily unavailable)
 - 🔗 **External Links** - Quick access to Wikipedia and ASI ticket booking
 - ⭐ **Favorites** - Bookmark your favorite sites
 - 🌙 **Dark Mode** - Full dark mode support
@@ -205,7 +205,7 @@ Project Link: [https://github.com/yourusername/nearest-unesco-site](https://gith
 ## 🐛 Known Issues
 
 - Maps require internet connection
-- AI chatbot requires API keys (optional feature)
+- AI chatbot is currently not working (feature temporarily unavailable)
 - First build may take 5-10 minutes
 
 ---
